@@ -13,6 +13,12 @@
 		B6B15BE4212E8F10003EEBE1 /* OneInSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B15BE3212E8F10003EEBE1 /* OneInSwiftTests.swift */; };
 		B6B15BEF212E8F10003EEBE1 /* OneInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B15BEE212E8F10003EEBE1 /* OneInSwiftUITests.swift */; };
 		B6B15C00212E92BA003EEBE1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B15BFF212E92BA003EEBE1 /* Launch Screen.storyboard */; };
+		B6B15C03212E9D1B003EEBE1 /* OSTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B15C02212E9D1B003EEBE1 /* OSTabBarController.swift */; };
+		B6B15C05212E9D3B003EEBE1 /* OSTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B15C04212E9D3B003EEBE1 /* OSTabBar.swift */; };
+		B6B15C07212E9DBF003EEBE1 /* OSEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B15C06212E9DBF003EEBE1 /* OSEntry.swift */; };
+		B6B15C0C212E9EA1003EEBE1 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B15C0B212E9EA1003EEBE1 /* OneViewController.swift */; };
+		B6B15C0E212E9EAF003EEBE1 /* AllViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B15C0D212E9EAF003EEBE1 /* AllViewController.swift */; };
+		B6B15C10212E9EC0003EEBE1 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B15C0F212E9EC0003EEBE1 /* MeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		B6B15BEE212E8F10003EEBE1 /* OneInSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneInSwiftUITests.swift; sourceTree = "<group>"; };
 		B6B15BF0212E8F10003EEBE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6B15BFF212E92BA003EEBE1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B6B15C02212E9D1B003EEBE1 /* OSTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSTabBarController.swift; sourceTree = "<group>"; };
+		B6B15C04212E9D3B003EEBE1 /* OSTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSTabBar.swift; sourceTree = "<group>"; };
+		B6B15C06212E9DBF003EEBE1 /* OSEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSEntry.swift; sourceTree = "<group>"; };
+		B6B15C0B212E9EA1003EEBE1 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		B6B15C0D212E9EAF003EEBE1 /* AllViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllViewController.swift; sourceTree = "<group>"; };
+		B6B15C0F212E9EC0003EEBE1 /* MeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,10 @@
 		B6B15BCD212E8F10003EEBE1 /* OneInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				B6B15C09212E9E39003EEBE1 /* One */,
+				B6B15C0A212E9E39003EEBE1 /* All */,
+				B6B15C08212E9E39003EEBE1 /* Me */,
+				B6B15C01212E9CA9003EEBE1 /* Root */,
 				B6B15BCE212E8F10003EEBE1 /* AppDelegate.swift */,
 				B6B15BD0212E8F10003EEBE1 /* ViewController.swift */,
 				B6B15BFF212E92BA003EEBE1 /* Launch Screen.storyboard */,
@@ -120,6 +136,40 @@
 				B6B15BF0212E8F10003EEBE1 /* Info.plist */,
 			);
 			path = OneInSwiftUITests;
+			sourceTree = "<group>";
+		};
+		B6B15C01212E9CA9003EEBE1 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B6B15C02212E9D1B003EEBE1 /* OSTabBarController.swift */,
+				B6B15C04212E9D3B003EEBE1 /* OSTabBar.swift */,
+				B6B15C06212E9DBF003EEBE1 /* OSEntry.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		B6B15C08212E9E39003EEBE1 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				B6B15C0F212E9EC0003EEBE1 /* MeViewController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		B6B15C09212E9E39003EEBE1 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				B6B15C0B212E9EA1003EEBE1 /* OneViewController.swift */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		B6B15C0A212E9E39003EEBE1 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				B6B15C0D212E9EAF003EEBE1 /* AllViewController.swift */,
+			);
+			path = All;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +307,12 @@
 			files = (
 				B6B15BD1212E8F10003EEBE1 /* ViewController.swift in Sources */,
 				B6B15BCF212E8F10003EEBE1 /* AppDelegate.swift in Sources */,
+				B6B15C10212E9EC0003EEBE1 /* MeViewController.swift in Sources */,
+				B6B15C0E212E9EAF003EEBE1 /* AllViewController.swift in Sources */,
+				B6B15C03212E9D1B003EEBE1 /* OSTabBarController.swift in Sources */,
+				B6B15C0C212E9EA1003EEBE1 /* OneViewController.swift in Sources */,
+				B6B15C07212E9DBF003EEBE1 /* OSEntry.swift in Sources */,
+				B6B15C05212E9D3B003EEBE1 /* OSTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
